@@ -43,4 +43,4 @@ $databasePassword = '';
 
 - Name : Rizky Tegar Pratama
 
-- Github : Https:/Github.com/rizkytegar
+- Github : Https://www.github.com/rizkytegar
