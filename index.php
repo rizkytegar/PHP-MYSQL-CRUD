@@ -4,29 +4,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pendaftaran Siswa Baru</title>
+    <title>Learn PHP With Rizky Dev</title>
 </head>
 <body>
     <header>
-    <h3>Pendaftaran Siswa Baru</h3>
-    <h1>SMK CODING</h1>
+    <h1>Learn PHP</h1>
     </header>
-    <h4>Menu</h4>
     <nav>
-        <?php if(isset($_GET['status'])):?>
+        <?php if(isset($_GET['flashdata'])):?>
         <p>
             <?php
-            if($_GET['status'] == 'sukses'){
-                echo  "pendaftaran berhasil";
+            if($_GET['flashdata'] == 'success'){
+                echo  "SUCCESS INPUT";
             }else{
-                echo  "pedaftaran gagal";
+                echo  "INPUT FAILED";
             }
             ?>
         </p>
       <?php endif;?>
     <ul>
-    <a href="form-daftar.php">Daftar Baru</a>
-    <a href="list-siswa.php">Pendaftar</a>
+        <h4>Menu</h4>
+    <a href="new.php">NEW INPUT</a> |
+    <a href="list.php">LIST DATA</a>
     </ul>
     </nav>
 </body>
