@@ -27,7 +27,7 @@ config/database.sql
 Lokasi konfigurasi database ada di :
 
 ```
-config/database.PHP
+config/database.php
 ```
 
 Sesuaikan nama database dengan database anda
