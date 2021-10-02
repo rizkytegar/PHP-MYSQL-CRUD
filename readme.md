@@ -2,7 +2,7 @@
 
 Sistem Crud PHP Native dibuat dengan :
 
-- PHP 7
+- PHP 5.2.0
 - Mysql Database
 - HTML
 
