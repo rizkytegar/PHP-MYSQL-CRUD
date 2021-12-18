@@ -8,7 +8,7 @@ Sistem Crud PHP Native dibuat dengan :
 
 ## DOKUMENTASI
 
-### install
+### Install
 
 Clone repositori
 
@@ -16,7 +16,7 @@ Clone repositori
 git clone https://github.com/rizkytegar/PHP-CRUD
 ```
 
-### database
+### Database
 
 Import database
 
